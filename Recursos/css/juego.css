@@ -1,0 +1,64 @@
+
+
+/*Código armado por La Foca Loca S.A. No modificar*/
+body {
+  font-family: Arial, sans-serif;
+  width: 940px;
+  margin: 5% auto;
+  min-height: 100%;
+  background-image: url(../images/fondo.jpg);
+}
+ul {
+  padding-left: 0;
+  list-style: none;
+}
+li {
+  padding: 5px 0;
+}
+li::before {
+  content: "• ";
+  color: #EC6778;
+}
+
+.col-40, .col-60 {
+  display: table-cell;
+  margin: 0;
+  vertical-align: top;
+
+}
+.col-40 {
+  background-image: url(../images/tenor.gif);
+  padding: 30px;
+  color: #000;
+}
+
+#juego div {
+
+  text-align: center;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+.pieza{
+	    width:188px;
+		height:188px;
+		float:left;
+        background-color:#FFF;
+		}
+
+.pieza img{
+	    width:98%;
+}
+
+#pieza9{
+       background-image: url(../images/descarga.jpg);
+}
+
+
+
+
+
+
